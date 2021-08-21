@@ -1,17 +1,23 @@
+#adding little comment on top of the body
+
 
 def dis(c1,c2):
     r=1
     r=(((c1[0]-c2[0])**2)+((c1[1]-c2[1])**2))**0.5
     return r
 
+#here we are taking the input
 lim=int(input())
 
+#here we are splitting the input
 l=list(input().split(','))
 man=[]
 count=1;
 for i in l:
     man.append(list(map(int,i.split(':'))))
 j=1
+
+#here we perform all the necessary operations
 
 mi=0
 ma=0
